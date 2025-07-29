@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS Customer (
+    id VARCHAR(36) NOT NULL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    country VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS Orders (
+    id VARCHAR(36) NOT NULL PRIMARY KEY,
+    customer_id VARCHAR(36) NOT NULL,
+    total DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (customer_id) REFERENCES Customer(id)
+);
