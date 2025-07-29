@@ -1,0 +1,22 @@
+
+GET http://localhost:8080/api/alumnos
+
+###
+GET http://localhost:8080/api/alumnos/1
+
+###
+GET http://localhost:8080/api/alumnos/activos
+
+
+###
+POST http://localhost:8080/api/alumnos
+Content-Type: application/json
+
+{
+  "id": 2,
+  "nombre": "Juan",
+  "apellido": "Pérez",
+  "edad": 20,
+  "estado": "ACTIVO"
+}
+

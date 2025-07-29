@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.scotiabank.microservicio.alumno.test.AlumnoServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-11T23:26:24.861Z" hostname="DESKTOP-AG8QKJE" time="1.696">
+  <properties/>
+  <testcase name="guardarAlumno_debeGuardarSiNoExiste()" classname="com.scotiabank.microservicio.alumno.test.AlumnoServiceTest" time="1.696"/>
+  <system-out><![CDATA[18:26:26.371 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
